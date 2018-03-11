@@ -1,19 +1,5 @@
-# pysctp
+# PySCTP - SCTP bindings for Python3
 SCTP stack for Python3
-
-PySCTP - SCTP bindings for Python3
----------------------------------
-
-Elvis Pfützenreuter 
-Instituto Nokia de Tecnologia (http://www.indt.org.br)
-epx __AT__ epx.com.br
-
-Philippe Langlois
-P1 Security (http://www.p1sec.com)
-phil __AT__ p1sec.com
-
-Guiyang Wu
-Nokia Qingdao (http://www.nokia.com)
 
 ======================================================================
 INSTALL for Ubuntu (version >= 14.04)
@@ -147,7 +133,18 @@ This module is licensed under the LGPL license.
 ======================================================================
 Credits
 
-Elvis Pfützenreuter <elvis.pfutzenreuter __AT__ indt.org.br>
-Philippe Langlois <phil __AT__ p1sec.com>
-Casimiro Daniel NPRI <CasimiroD  __AT__ npt.nuwc.navy.mil> - patch for new SCTP_* constants
-Guiyang Wu <Nokia> - port to Python3
+Elvis Pfützenreuter
+<elvis.pfutzenreuter __AT__ indt.org.br>
+Instituto Nokia de Tecnologia (http://www.indt.org.br)
+epx __AT__ epx.com.br
+
+Philippe Langlois
+<phil __AT__ p1sec.com>
+P1 Security (http://www.p1sec.com)
+phil __AT__ p1sec.com
+
+Casimiro Daniel NPRI
+<CasimiroD  __AT__ npt.nuwc.navy.mil> - patch for new SCTP_* constants
+
+Guiyang Wu
+Nokia Qingdao (http://www.nokia.com) - port to Python3
