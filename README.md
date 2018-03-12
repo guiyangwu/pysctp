@@ -61,7 +61,7 @@ In a nutshell, PySCTP can be used as follows:
   sk.close()
 </pre>
 
-The autotest programs (test.py and test_server.py) are actually a good
+The autotest programs (test_XXXX.py) are actually a good
 example of pysctp usage.
 
 The BSD/Sockets SCTP extensions are defined by an IETF draft
@@ -131,15 +131,15 @@ Credits
 
 Elvis Pfützenreuter
 Instituto Nokia de Tecnologia (http://www.indt.org.br)
-elvis.pfutzenreuter __AT__ indt.org.br
-epx __AT__ epx.com.br
+elvis.pfutzenreuter/AT/indt.org.br
+epx/AT/epx.com.br
 
 Philippe Langlois
 P1 Security (http://www.p1sec.com)
-phil __AT__ p1sec.com
+phil/AT/p1sec.com
 
 Casimiro Daniel NPRI
-CasimiroD  __AT__ npt.nuwc.navy.mil
+CasimiroD/AT/npt.nuwc.navy.mil
 Patch for new SCTP_* constants
 
 Guiyang Wu
