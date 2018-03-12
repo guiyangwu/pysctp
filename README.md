@@ -21,7 +21,7 @@ python3 setup.py install --dry-run
 python3 setup.py build
 
 ---
-DEPENDENCIES:
+DEPENDENCIES
 
 You can use to automatically install dependencies for Debian/Ubuntu:
 make installdeps
@@ -49,8 +49,7 @@ For discussion, sources, bugs, go to http://github.com/philpraxis/pysctp
 
 In a nutshell, PySCTP can be used as follows:
 
----
-
+<pre>
   import socket
   import sctp
 
@@ -60,8 +59,7 @@ In a nutshell, PySCTP can be used as follows:
   ... most socket operations work for SCTP too ...
 
   sk.close()
-
----
+</pre>
 
 The autotest programs (test.py and test_server.py) are actually a good
 example of pysctp usage.
@@ -77,11 +75,10 @@ Programming.
 WARNING: the API of this module is not stable yet. We expect not to
 change it too much, but do not base any critical work on it yet :)
 
-
 ---
 DESCRIPTION
 
-1) The "sctp" module
+1. The "sctp" module
 
 The "sctp" module is the Python3 side of the bindings. The docstrings
 of every class and method can give good advice of functions, but the
@@ -107,7 +104,7 @@ highlights are:
   do not make sense in a particular style are rendered invalid in each
   class (e.g. peeloff() in TCP-style sockets).
 
-2) The "_sctp" module
+2. The "_sctp" module
 
 This is the C side of the bindings, that provides the "glue" between
 Python3 and the C API. The regular PySCTP user should not need to get 
@@ -124,7 +121,6 @@ NOTE: it all has been tested agains lksctp-utils 1.0.1 and kernel
 2.6.10, that come with Ubuntu Hoary. Some newer calls like connectx()
 depend of testing on a newer environment to be implemented.
 
-
 ---
 License
 
@@ -134,17 +130,18 @@ This module is licensed under the LGPL license.
 Credits
 
 Elvis Pfützenreuter
-<elvis.pfutzenreuter __AT__ indt.org.br>
 Instituto Nokia de Tecnologia (http://www.indt.org.br)
+elvis.pfutzenreuter __AT__ indt.org.br
 epx __AT__ epx.com.br
 
 Philippe Langlois
-<phil __AT__ p1sec.com>
 P1 Security (http://www.p1sec.com)
 phil __AT__ p1sec.com
 
 Casimiro Daniel NPRI
-<CasimiroD  __AT__ npt.nuwc.navy.mil> - patch for new SCTP_* constants
+CasimiroD  __AT__ npt.nuwc.navy.mil
+Patch for new SCTP_* constants
 
 Guiyang Wu
-Nokia Qingdao (http://www.nokia.com) - port to Python3
+Nokia (http://www.nokia.com)
+Port to Python3
