@@ -1,7 +1,7 @@
 # PySCTP - SCTP bindings for Python3
 SCTP stack for Python3
 
-======================================================================
+---
 INSTALL for Ubuntu (version >= 14.04)
 
 1) Shell: sudo apt-get install libsctp-dev libsctp1 lksctp-tools
@@ -9,7 +9,7 @@ INSTALL for Ubuntu (version >= 14.04)
 3) Shell: sudo python3 setup.py install
 4) Python3> import sctp
 
-======================================================================
+---
 INSTALL
 
 sudo python3 setup.py install
@@ -20,7 +20,7 @@ python3 setup.py install --dry-run
 * to just build and not install:
 python3 setup.py build
 
-======================================================================
+---
 DEPENDENCIES:
 
 You can use to automatically install dependencies for Debian/Ubuntu:
@@ -36,7 +36,7 @@ https://nplab.fh-muenster.de/groups/wiki/wiki/f366c/SCTP_on_Mountain_Lion.html
 Mac OSX SCTP Network Kernel Extension (NKE) available at:
 http://sctp.fh-muenster.de/sctp-nke.html
 
-======================================================================
+---
 INTRODUCTION
 
 PySCTP gives access to the SCTP transport protocol from Python3 language.
@@ -49,19 +49,19 @@ For discussion, sources, bugs, go to http://github.com/philpraxis/pysctp
 
 In a nutshell, PySCTP can be used as follows:
 
----------
+---
 
-import socket
-import sctp
+  import socket
+  import sctp
 
-sk = sctpsocket_tcp(socket.AF_INET)
-sk.connect("10.0.1.1")
+  sk = sctpsocket_tcp(socket.AF_INET)
+  sk.connect("10.0.1.1")
 
-... most socket operations work for SCTP too ...
+  ... most socket operations work for SCTP too ...
 
-sk.close()
+  sk.close()
 
----------
+---
 
 The autotest programs (test.py and test_server.py) are actually a good
 example of pysctp usage.
@@ -78,7 +78,7 @@ WARNING: the API of this module is not stable yet. We expect not to
 change it too much, but do not base any critical work on it yet :)
 
 
-======================================================================
+---
 DESCRIPTION
 
 1) The "sctp" module
@@ -125,12 +125,12 @@ NOTE: it all has been tested agains lksctp-utils 1.0.1 and kernel
 depend of testing on a newer environment to be implemented.
 
 
-======================================================================
+---
 License
 
 This module is licensed under the LGPL license.
 
-======================================================================
+---
 Credits
 
 Elvis Pfützenreuter
