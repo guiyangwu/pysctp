@@ -129,19 +129,20 @@ This module is licensed under the LGPL license.
 ---
 Credits
 
-Elvis Pfützenreuter
+*Elvis Pfützenreuter*
 Instituto Nokia de Tecnologia (http://www.indt.org.br)
 elvis.pfutzenreuter/AT/indt.org.br
 epx/AT/epx.com.br
 
-Philippe Langlois
+*Philippe Langlois*
 P1 Security (http://www.p1sec.com)
 phil/AT/p1sec.com
 
-Casimiro Daniel NPRI
+*Casimiro Daniel*
+NPRI
 CasimiroD/AT/npt.nuwc.navy.mil
 Patch for new SCTP_* constants
 
-Guiyang Wu
+*Guiyang Wu*
 Nokia (http://www.nokia.com)
 Port to Python3
